@@ -1,0 +1,72 @@
+body{
+  background-color:#FAEDCD;
+}
+head{
+/* Link to Arvo font */
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
+
+/* CSS code to apply Arvo */
+<style>
+  body {
+    font-family: 'Arvo', serif;
+  }
+</style>
+
+}
+h1{
+color:#0A9396;
+font-family: 'Arvo', serif;
+text-align:center;
+}
+button{
+  color:#BB3E03;
+  font-weight:bold;
+  font-family: 'Dela Gothic One', sans-serif;
+  
+}
+.A {
+  display:flex;
+  justify-content:space-around;
+}
+
+.ListOfImg {
+  display:flex;
+  justify-content:space-around;
+}
+
+.PicAichi {
+  
+  
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.recommend {
+    text-align: center;
+}
+#recommend_contents {
+    display: none;
+}
+
+#recommend_contents h2 {
+    margin-top: 10px;
+    color: orangered;
+    font-weight: bold;
+}
+
+#recommend_contents p {
+    margin-top: 30px;
+    color: orangered;
+    font-weight: bold;
+}
+.recommend img {
+    width: 400px;
+    height: 300px;
+}
